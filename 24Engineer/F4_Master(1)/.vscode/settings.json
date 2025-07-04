@@ -1,0 +1,13 @@
+{
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on"
+    },
+    "[cpp]": {
+        "editor.wordBasedSuggestions": "matchingDocuments"
+    },
+    "C_Cpp.vcFormat.indent.caseContentsWhenBlock": true,
+    "C_Cpp.vcFormat.indent.braces": false,
+    "C_Cpp.vcFormat.indent.caseLabels": true,
+    "C_Cpp.vcFormat.space.beforeComma": true
+}

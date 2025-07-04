@@ -1,0 +1,28 @@
+# dot files
+/.vscode/launch.json
+/.settings
+/.eide/log
+/.eide.usr.ctx.json
+
+# project out
+/build
+/bin
+/obj
+/out
+/MDK-ARM/RUI_ENGINEER
+
+# eide template
+*.ept
+*.eide-template
+RUI_ENGINEER.code-workspace
+.eide/eide.json
+.eide/rui_engineer.arm.options.v6.json
+.pack
+/.cmsis
+/.eide
+RUI_ENGINEER.zip
+RUI_ENGINEER.code-workspace
+MDK-ARM/.vscode/
+MDK-ARM/DebugConfig/RUI_ENGINEER_STM32F427VITx.dbgconf
+
+MDK-ARM/EventRecorderStub.scvd

@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "gruntfuggly.todo-tree",
+        "eamodio.gitlens",
+        "cl.eide",
+        "marus25.cortex-debug",
+        "ms-vscode.cpptools"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Core/Inc/",
+                "${workspaceFolder}/RUI/",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/",
+                "D:\\APP\\keil\\core\\ARM\\ARMCLANG\\include\\",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include/",
+                "${workspaceFolder}/Drivers/CMSIS/Include/"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32F427xx",
+                "RUI_DF_DEVELOPMENT",
+                "__CC_ARM"
+            ],
+            "configurationProvider": "cl.eide"
+        }
+    ],
+    "version": 4
+}

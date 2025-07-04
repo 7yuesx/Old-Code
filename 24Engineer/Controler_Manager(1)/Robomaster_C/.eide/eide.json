@@ -1,0 +1,501 @@
+{
+  "name": "INS__4",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "Application",
+        "files": [],
+        "folders": [
+          {
+            "name": "MDK-ARM",
+            "files": [
+              {
+                "path": "MDK-ARM/startup_stm32f407xx.s"
+              },
+              {
+                "path": "Drivers/CMSIS/Lib/ARM/arm_cortexM4lf_math.lib"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "User",
+            "files": [
+              {
+                "path": "Src/main.c"
+              },
+              {
+                "path": "Src/gpio.c"
+              },
+              {
+                "path": "Src/freertos.c"
+              },
+              {
+                "path": "Src/crc.c"
+              },
+              {
+                "path": "Src/dma.c"
+              },
+              {
+                "path": "Src/spi.c"
+              },
+              {
+                "path": "Src/tim.c"
+              },
+              {
+                "path": "Src/usart.c"
+              },
+              {
+                "path": "Src/stm32f4xx_it.c"
+              },
+              {
+                "path": "Src/can.c"
+              },
+              {
+                "path": "Src/stm32f4xx_hal_msp.c"
+              },
+              {
+                "path": "Src/stm32f4xx_hal_timebase_tim.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "Drivers",
+        "files": [],
+        "folders": [
+          {
+            "name": "STM32F4xx_HAL_Driver",
+            "files": [
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c"
+              },
+              {
+                "path": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "CMSIS",
+            "files": [
+              {
+                "path": "Src/system_stm32f4xx.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "Middlewares",
+        "files": [],
+        "folders": [
+          {
+            "name": "FreeRTOS",
+            "files": [
+              {
+                "path": "Middlewares/Third_Party/FreeRTOS/Source/croutine.c"
+              },
+              {
+                "path": "Middlewares/Third_Party/FreeRTOS/Source/event_groups.c"
+              },
+              {
+                "path": "Middlewares/Third_Party/FreeRTOS/Source/list.c"
+              },
+              {
+                "path": "Middlewares/Third_Party/FreeRTOS/Source/queue.c"
+              },
+              {
+                "path": "Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c"
+              },
+              {
+                "path": "Middlewares/Third_Party/FreeRTOS/Source/tasks.c"
+              },
+              {
+                "path": "Middlewares/Third_Party/FreeRTOS/Source/timers.c"
+              },
+              {
+                "path": "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c"
+              },
+              {
+                "path": "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c"
+              },
+              {
+                "path": "Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "SJ_TASK",
+        "files": [
+          {
+            "path": "SJ__TASK/ins_task.c"
+          },
+          {
+            "path": "SJ__TASK/ins_task.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "SJ_DRV_LIB",
+        "files": [
+          {
+            "path": "SJ_DRV_LIB/arm_math.h"
+          },
+          {
+            "path": "SJ_DRV_LIB/BMI088driver.c"
+          },
+          {
+            "path": "SJ_DRV_LIB/BMI088driver.h"
+          },
+          {
+            "path": "SJ_DRV_LIB/BMI088Middleware.c"
+          },
+          {
+            "path": "SJ_DRV_LIB/BMI088Middleware.h"
+          },
+          {
+            "path": "SJ_DRV_LIB/BMI088reg.h"
+          },
+          {
+            "path": "SJ_DRV_LIB/transfer_function.c"
+          },
+          {
+            "path": "SJ_DRV_LIB/transfer_function.h"
+          },
+          {
+            "path": "SJ_DRV_LIB/user_lib.c"
+          },
+          {
+            "path": "SJ_DRV_LIB/user_lib.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "SJ_BSP",
+        "files": [
+          {
+            "path": "SJ__Bsp/bsp_dwt.c"
+          },
+          {
+            "path": "SJ__Bsp/bsp_dwt.h"
+          },
+          {
+            "path": "SJ__Bsp/bsp_PWM.c"
+          },
+          {
+            "path": "SJ__Bsp/bsp_PWM.h"
+          },
+          {
+            "path": "SJ__Bsp/RUI_CAN.c"
+          },
+          {
+            "path": "SJ__Bsp/RUI_CAN.h"
+          },
+          {
+            "path": "SJ__Bsp/VOFA.c"
+          },
+          {
+            "path": "SJ__Bsp/VOFA.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "SJ_algo",
+        "files": [
+          {
+            "path": "SJ_algo/controller.c"
+          },
+          {
+            "path": "SJ_algo/controller.h"
+          },
+          {
+            "path": "SJ_algo/kalman_filter.c"
+          },
+          {
+            "path": "SJ_algo/kalman_filter.h"
+          },
+          {
+            "path": "SJ_algo/QuaternionEKF.c"
+          },
+          {
+            "path": "SJ_algo/QuaternionEKF.h"
+          },
+          {
+            "path": "SJ_algo/RUI_ALLUI.c"
+          },
+          {
+            "path": "SJ_algo/RUI_ALLUI.h"
+          },
+          {
+            "path": "SJ_algo/RUI_ANONYMITY.c"
+          },
+          {
+            "path": "SJ_algo/RUI_ANONYMITY.h"
+          },
+          {
+            "path": "SJ_algo/handle.c"
+          },
+          {
+            "path": "SJ_algo/handle.h"
+          },
+          {
+            "path": "SJ_algo/hand_two.c"
+          },
+          {
+            "path": "SJ_algo/hand_two.h"
+          },
+          {
+            "path": "SJ_algo/Receive.c"
+          },
+          {
+            "path": "SJ_algo/Receive.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "::CMSIS",
+        "files": [],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "3272b6521f5057f10e0023e0b0b5ece0"
+  },
+  "targets": {
+    "INS__4": {
+      "excludeList": [],
+      "toolchain": "AC6",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x1c000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x2001c000",
+                "size": "0x4000"
+              },
+              "isChecked": true,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x100000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "null",
+          "cpuName": "null"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "Inc",
+          "Drivers/STM32F4xx_HAL_Driver/Inc",
+          "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+          "Middlewares/Third_Party/FreeRTOS/Source/include",
+          "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+          "Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F",
+          "Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+          "Drivers/CMSIS/Include",
+          "SJ_DRV_LIB",
+          "SJ__TASK",
+          "SJ_algo",
+          "SJ__Bsp",
+          "MDK-ARM/RTE/_INS__4"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32F407xx",
+          "USE_HAL_DRIVER",
+          "STM32F407xx",
+          "ARM_MATH_CM4",
+          "__FPU_USED=1U",
+          "__FPU_PRESENT=1U",
+          "ARM_MATH_MATRIX_CHECK",
+          "ARM_MATH_ROUNDING"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
